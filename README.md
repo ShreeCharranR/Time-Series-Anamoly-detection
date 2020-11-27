@@ -1,7 +1,7 @@
 # Time-Series-Anamoly-detection
 Autoencoders
 
-# 1)Timeseries anomaly detection using an Autoencode
+# Timeseries anomaly detection using an Autoencode
 - Uses a reconstruction convolutional autoencoder model to detect anomalies in timeseries data.
 - Data -[Numenta Anomaly Benchmark(NAB)](https://www.kaggle.com/boltzmannbrain/nab) dataset. It provides artificaltim eseries data containing labeled anomalous periods of behavior. Data are ordered, timestamped, single-valued metrics.
 - We will use the `art_daily_small_noise.csv` file for training and the `art_daily_jumpsup.csv` file for testing. 
@@ -22,4 +22,4 @@ detection.
 value then we can infer that the model is seeing a pattern that it isn't
 familiar with. We will label this sample as an `anomaly`.
 
-!(anamoly)[/anamoly.PNG]
+![anamoly](/anamoly.PNG)
